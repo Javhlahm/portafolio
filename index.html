@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto ONE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <img class="logo" src="images/Logo@2x.png" alt="logo">
+        <textarea name="textoOriginal" class="txt_original" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+        <div class="caja-resultado">
+        </div>
+        <div class="botones_encriptador">
+            <button class="btn_encriptar" type="button" onclick="encriptarTexto();">Encriptar</button>
+            <button class="btn_desencriptar" type="button" onclick="desencriptarTexto();">Desencriptar</button>
+        </div>
+        <p class="nota">Sólo letras minúsculas y sin acento</p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
