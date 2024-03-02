@@ -78,7 +78,7 @@ function noTexto(){
     }
     if (!(document.querySelector(".img_muñeca") && document.querySelector(".div_txterror"))) {
         const img = document.createElement("img");
-        img.src = "/images/muneco.png";
+        img.src = "./images/muneco.png";
         img.alt = "muñeca";
         img.className="img_muñeca"
         document.querySelector("body").appendChild(img);
